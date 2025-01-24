@@ -3,6 +3,7 @@ package com.picpaysimplificado.domain.transaction;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
+import com.picpaysimplificado.TransactionDTO.TransactionDTO;
 import com.picpaysimplificado.domain.user.User;
 
 import jakarta.persistence.Entity;
@@ -54,5 +55,10 @@ public class Transaction {
 
 	public void setTimestamp(LocalDateTime timestamp) {
 		this.timestamp = timestamp;
+	}
+
+	public Transaction createTransaction(TransactionDTO transaction) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }
